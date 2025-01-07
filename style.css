@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'JetBrains';
+    src: url('./fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'JetBrains';
+}
+
+#btnsContainer {
+    text-align: center;
+}
+
+.btns {
+    padding: 10px, 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(162, 52, 236);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btns:hover {
+    background-color: rgb(114, 16, 179);
+}
